@@ -1,0 +1,100 @@
+/*Pegamos la tipografia elegida de la pagina google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Open+Sans+Condensed:wght@700&display=swap');
+
+*{font: round;}
+    
+
+body {
+    font-family: 'Crete Round', serif;
+    text-align: center;
+}
+
+h1,h2,h3{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1{
+    
+    /*Tamaño de la tipografia*/
+    font-size: 50px;
+}
+
+a{
+    color: #666;
+    /*Saco el subrayado de mis vinculos*/
+    text-decoration: none; 
+    margin-left: 10px;
+    /*Transformo el texto con cada primera letra de la palabra en mayuscula
+    text-transform: capitalize;*/
+     /*Transformo el texto con cada primera letra de la palabra en minuscula
+    text-transform: lowercase;*/
+     /*Transformo el texto con todas las letras de la palabra en mayuscula*/
+    text-transform: uppercase;
+
+}
+
+/*Para que pase algo cuando le paso el mouse por encima a los vinculos*/
+a:hover{
+    color: pink;
+    border-bottom: 1px solid #666;
+}
+
+p,a{
+    font-size: 17px;
+}
+
+
+.pink{
+    background-color: pink;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.white{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#centrado{
+    width: 900px;
+    margin: 0 auto;
+
+}
+
+#centrado img {
+    width: 33%;
+
+}
+.footer {
+    background-color: #666;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20%;
+    text-align: center;
+
+}
+
+.imgRedonda {
+    width:300px;
+    height:300px;
+    border-radius:150px;
+    border:10px solid #666;
+}
+
+button{
+    font-size: 18px; 
+    width: 250px;
+    /*Le doy un alto*/
+    height: 60px;
+    border: solid 2px #333;
+    background-color: transparent;
+    /*Transformo el texto con todas las letras de la palabra en mayuscula*/
+    text-transform: uppercase;
+    /*Genero espacio entre los bordes del boton y el espacio que tengo adentro*/
+    padding: 5px;
+    /*El cursor pasara de ser una flecha a una mano cuando pase por encima*/
+    cursor: pointer;
+}
+
+button:hover{
+    /*Cuando pase el mouse encima del boton, el texto va a cambiar a negrita*/
+    font-weight: bold;
+}
